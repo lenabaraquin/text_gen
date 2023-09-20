@@ -20,6 +20,7 @@ fichier_sortie="${fichier_entree%.txt}_nettoye.txt"
 
 # Appliquer les opérations de nettoyage sur le fichier
 sed 's/[^[:alnum:] ]/ /g' "$fichier_entree" | tr '\n' ' ' | tr -s ' ' | tr '[:upper:]' '[:lower:]' > "$fichier_sortie"
+mv "$fichier_sortie" "$fichier_entree"
 
-echo "Le texte a été nettoyé et enregistré dans $fichier_sortie."
+echo "Le texte a été nettoyé et enregistré dans $fichier_entree."
 
