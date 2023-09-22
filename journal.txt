@@ -1,0 +1,4 @@
+Bon je commence à me perdre dans tout ce bourbier mal coder du coup je vais essayer de faire un journal pour savoir où j'en suis.
+- (21 sept) je comprends pas pourquoi la moyenne des distances entre les clés identiques n'est pas une mesure satisfaisante, en ayant plot la distribution des distances triées dans l'ordre croissant, j'obtient fig1 pour des langues similaires et fig2 pour des langues différentes.
+j'essaye de trouver d'autres phénomènes qui auraient des modèles qui peuvent amener à des distributions similaires pour essayer de comprendre ce qui peut amener à ces distributions.
+- (22 sept) Après avoir demander à Stella, je commence à comprendre en quoi le dictionnaire représente la matrice de transition de A^n -> A (avec A, l'alphabet et n, la taille des n-grams),
